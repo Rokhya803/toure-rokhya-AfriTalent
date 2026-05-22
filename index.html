@@ -10,19 +10,21 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 rel="stylesheet"> 
 <!-- Votre feuille de style personnelle --> 
 <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 </head>
 <body> 
 <!-- Le contenu de la page sera ajoute ici --> 
 <header>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#"><img src="images/logo.jpeg" alt="logo" width="70px"></a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpeg" alt="logo" width="70px" id="logo"></a>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
         </li>
@@ -49,12 +51,17 @@ rel="stylesheet">
 </header>
              <section>
                 <!-- HERO -->
-                 <section>
+                 <section class="hero">
+                  <div>
                     <h1>Trouve les Freelances parfait en Afrique</h1>
                     <h2>Plateforme pour connecter freelances et entreprises</h2>
+                    </div>
+                    <div>
                     <a href="">Je suis Freelance</a>
                     <a href="">Je cherche un Freelance</a>
-                    <img src="images/img1.jpg" alt="Freelance">
+                    <img src="images/img1.jpg" alt="images">
+                    </div>
+                    <div class="tr">
                     <h3>freelances</h3>
                     <span>+2500</span>
                     <h3>entreprises</h3>
@@ -64,7 +71,7 @@ rel="stylesheet">
                     </div>
                  </section>
                     <!-- Comment ça marche -->
-                     <section>
+                     <section class="kya">
                         <div>
                             <h2>Comment ça marche?</h2>
                             <div>
@@ -91,7 +98,7 @@ rel="stylesheet">
                      </section>
                  
                     <!-- CATEGORIES DE SERVICES -->
-                      <section>
+                      <section class="icone">
                      <div>
                            <i class="fa-solid fa-laptop-code fa-xl"  style="color: rgb(22, 117, 192);"></i>
                         <h3>Développement Web</h3>
@@ -122,9 +129,8 @@ rel="stylesheet">
                      <p>50 freelances disponibles</p>
                      </section>
                      <!-- TEMOIGNAGES -->
-                      <section>
+                      <section class="toure">
                         <div>
-                      
                       <img src="images/freel rtech.jpg" alt="Rédaction Tech">
                       <h2>Mariata Kebe</h2>
                       <h3>freelance</h3>
@@ -169,12 +175,12 @@ rel="stylesheet">
                       </section>
                       <!-- APPEL L'ACTION (CTA) -->
                        <section>
-                        <div>
+                        <div class="ass">
                         <button class="btn btn-primary">S'inscrire</button>
                         </div>
                        </section>
                        <!-- FOOTER -->
-                        <footer>
+                        <footer class="ba">
                            <div>
                               <img src="images/logo.jpeg" alt="logo" width="70px">
                               <p>La plateforme qui connecte les meilleurs freelances tech africains aux entreprises innovantes.</p>
@@ -189,7 +195,7 @@ rel="stylesheet">
                                  <li><a href="contact.html">contact</a></li>
                               </ul>
                            </div>
-                           <div>
+                           <div class="am">
                               <h4>Ressources</h4>
                               <aside>
                                  <p>BLOG</p>
@@ -201,7 +207,7 @@ rel="stylesheet">
                                  <p>SUPPORT</p>
                               </aside>
                            </div>
-                           <div>
+                           <div class="toure">
                               <h4>Contact</h4>
                               <a href="contact.html">Contact@afriTalent</a>
                               <p>
@@ -214,7 +220,7 @@ rel="stylesheet">
                            <div>
                               <h3>Suivez-nous sur</h3>
                            </div>
-                           <div>
+                           <div class="papa">
                               <a href="https://Snapchat"><i class="fa-brands fa-instagram fa-xl" style="color: rgb(14, 13, 13);"></i></a>
                            </div>
                            <div>

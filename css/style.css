@@ -1,6 +1,49 @@
-.kya{
-    display: flex;
+.navbar{
+    padding:var(--space);
+    background:white;
+    box-shadow:var(--color-texte);
+    font-family: var(--font-corp);
 }
-ul{
+*{
+    margin: 0;
+    padding: 0;
     list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --font-corp :Roboto, sans-serif;
+    --font-titre:Poppins,sans-serif;
+    --color-principal:white;
+    --color-texte:black;
+    --color:rgb(75, 115, 150);
+    --space:15px;
+}
+
+.nav-link{
+    margin-left: 20px;
+    font-weight: 700;
+    color:var(--color-texte);   
+}
+
+.navbar-brand{
+    border-radius: 10px;
+    font-weight:700;
+    font-size: 2rem;
+    color: var(--color-principal);   
+}
+#logo{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: var(--font-titre);
+    font-weight: 700;
+}
+.navbar{
+    background-color: var(--color);
+}
+.btn{
+    color: var(--color);
+    background-color: black;
 }
